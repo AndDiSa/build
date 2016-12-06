@@ -114,7 +114,11 @@ ifeq "" "$(PLATFORM_SECURITY_PATCH)"
     #  It must be of the form "YYYY-MM-DD" on production devices.
     #  It must match one of the Android Security Patch Level strings of the Public Security Bulletins.
     #  If there is no $PLATFORM_SECURITY_PATCH set, keep it empty.
+<<<<<<< HEAD
+      PLATFORM_SECURITY_PATCH := 2016-11-05
+=======
       PLATFORM_SECURITY_PATCH := 2016-12-05
+>>>>>>> android-7.1.1_r1
 endif
 
 ifeq "" "$(PLATFORM_BASE_OS)"
